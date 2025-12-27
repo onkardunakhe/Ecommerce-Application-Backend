@@ -73,6 +73,17 @@ The **Ecommerce Application Backend** provides:
      After running the application, open your browser and go to(for swagger):  
      http://localhost:8080/swagger-ui.html
 ---
+
+## ✨ Future Improvements
+  - 🔐 **OTP-based Login / Two-Factor Authentication (2FA)**  
+    Enhance security by allowing users to log in with one-time passwords via email or SMS
+  - 📈 **Analytics Dashboard**  
+    Provide insights on orders, revenue, and user activity.
+   - 💾 **Backup & Restore Functionality**  
+     Allow database backups and restoration to prevent data loss.
+   - ☁️ **Cloud Deployment / Dockerization**  
+     Make deployment easier using Docker or cloud platforms like AWS or Azure.
+
 ## 🙋‍♂️ Author
 Onkar Dunakhe  
 📧 onkardunakhe1@gmail.com  
