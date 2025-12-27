@@ -25,7 +25,7 @@ The **Ecommerce Application Backend** provides:
 ## 🔧 Tech Stack
 
 ### 🖥️ Backend
-- Java 17+
+- Java 21
 - Spring Boot
 - Spring Security (JWT)
 - Hibernate & JPA
@@ -36,7 +36,9 @@ The **Ecommerce Application Backend** provides:
 ### 📦 Others
 - JUnit & Mockito for testing
 - Spring DevTools for development
-- Docker (optional for deployment)
+- Spring Security
+- Spring starter Oauth2
+- Spring OpenApi Swaggwer
 - Environment variables for sensitive data  
 
 ---
