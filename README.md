@@ -63,13 +63,13 @@ The **Ecommerce Application Backend** provides:
    ```bash
    git clone https://github.com/onkardunakhe/Ecommerce-Application-Backend.git
    cd Ecommerce-Application-Backend
-2.Configure the application:
-  Copy the example properties file and update it according to your system:
-  cp src/main/resources/application-example.properties src/main/resources/application.properties
-3.Build and run the application:
-  mvn clean install
-  mvn spring-boot:run
-4.Test APIs using **Swagger UI** or integrate with your frontend or test with Postman:  
+2. Configure the application:
+    Copy the example properties file and update it according to your system:
+    cp src/main/resources/application-example.properties src/main/resources/application.properties
+3. Build and run the application:
+   mvn clean install
+   mvn spring-boot:run
+4. Test APIs using **Swagger UI** or integrate with your frontend or test with Postman:  
      After running the application, open your browser and go to(for swagger):  
      http://localhost:8080/swagger-ui.html
 ---
