@@ -54,3 +54,7 @@ The **Ecommerce Application Backend** provides:
 - 🔧 **Testing with JUnit & Mockito**  
 
 ---
+## 🙋‍♂️ Author
+Onkar Dunakhe  
+📧 onkardunakhe1@gmail.com  
+🔗www.linkedin.com/in/onkar-dunakhe
