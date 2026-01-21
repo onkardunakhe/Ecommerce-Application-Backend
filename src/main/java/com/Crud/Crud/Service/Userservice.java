@@ -38,6 +38,7 @@ public class Userservice {
         User user1 = modelMapper.map(user, User.class);
         user1.setPassword(passwordEncoder.encode(user.getPassword()));
         // TODO: set roles if needed
+        // TODO: set roles if needed ok
         user1.setProvider(user.getProvider() != null ? user.getProvider() : Provider.LOCAL);
         Role role = rolerepo.findByName("ROLE_USER")
                 .orElseThrow(() -> new RuntimeException("ROLE_USER not found"));
