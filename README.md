@@ -24,14 +24,14 @@ The **Ecommerce Application Backend** provides:
 - **Access Control:** Users can access only their own orders and data.  
 - **RESTful APIs:** Clean and secure endpoints for frontend integration.  
 - **Database Management:** Configurable for MySQL or PostgreSQL with JPA/Hibernate.  
-🤖 AI Assistant
-The backend also includes an AI-powered product assistant built using Spring AI and Ollama.
-The assistant uses LLM Tool Calling to retrieve real-time product data directly from the database.
-Capabilities include:
-Natural language product search
-Price-based product filtering
-Category-based product discovery
-Real-time database queries through AI tools
+-🤖 AI Assistant
+- The backend also includes an AI-powered product assistant built using Spring AI and Ollama.
+-The assistant uses LLM Tool Calling to retrieve real-time product data directly from the database.
+     Capabilities include:
+                 Natural language product search
+                 Price-based product filtering
+                 Category-based product discovery
+                 Real-time database queries through AI tools
 ---
 
 ## 🔧 Tech Stack
