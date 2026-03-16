@@ -25,7 +25,6 @@ The **Ecommerce Application Backend** provides:
 - **RESTful APIs:** Clean and secure endpoints for frontend integration.  
 - **Database Management:** Configurable for MySQL or PostgreSQL with JPA/Hibernate.  
 🤖 AI Assistant
-
 The backend also includes an AI-powered product assistant built using Spring AI and Ollama.
 The assistant uses LLM Tool Calling to retrieve real-time product data directly from the database.
 Capabilities include:
