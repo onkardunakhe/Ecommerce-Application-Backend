@@ -1,7 +1,9 @@
 package com.Crud.Crud.Repository;
 
+import com.Crud.Crud.Dtos.ProductDTO;
 import com.Crud.Crud.Entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -16,4 +18,10 @@ public interface Prodrepo extends JpaRepository<Product, Long> {
 
     List<Product> findByPriceBetween(Long minprice, Long maxPrice);
 
+
+    List<Product> findByPriceLessThanEqual(double price);
+
+    List<Product> findTop5ByOrderByPriceAsc();
+
+    List<Product> findTop5ByOrderByPriceDesc();
 }

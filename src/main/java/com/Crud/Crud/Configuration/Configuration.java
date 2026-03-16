@@ -1,6 +1,7 @@
 package com.Crud.Crud.Configuration;
 
 import org.modelmapper.ModelMapper;
+import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
@@ -17,4 +18,11 @@ public class Configuration {
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authenticationConfiguration) throws Exception {
         return authenticationConfiguration.getAuthenticationManager();
     }
+
+    @Bean
+    ChatClient chatClient(ChatClient.Builder builder) {
+        return builder.build();
+    }
+
+
 }
