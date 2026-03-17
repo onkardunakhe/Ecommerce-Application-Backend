@@ -115,7 +115,7 @@
             <artifactId>spring-ai-starter-model-ollama</artifactId>
             <version>1.0.0</version>
         </dependency>
-
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

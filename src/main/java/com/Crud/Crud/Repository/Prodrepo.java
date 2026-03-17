@@ -24,4 +24,8 @@ public interface Prodrepo extends JpaRepository<Product, Long> {
     List<Product> findTop5ByOrderByPriceAsc();
 
     List<Product> findTop5ByOrderByPriceDesc();
+
+    List<Product> findByCategoryContainingIgnoreCaseAndPriceLessThanEqual(String category, double price);
+
+    Product findFirstByNameContainingIgnoreCase(String name1);
 }
